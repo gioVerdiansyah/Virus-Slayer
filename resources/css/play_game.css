@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+#play_game,
+#play_game #lines {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#play_game #countDown {
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+    color: black;
+    z-index: 1;
+}
+
+#play_game #lines_parent {
+    position: relative;
+    height: 100vh;
+    width: 30%;
+}
+
+#play_game #lines_parent #lines {
+    width: 100%;
+    height: 75%;
+}
+
+#play_game #descriptions {
+    color: white;
+}
+
+#play_game #lines_parent #line_1,
+#play_game #lines_parent #line_2,
+#play_game #lines_parent #line_3,
+#play_game #lines_parent #line_4 {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(66, 66, 66, 1) 50%, rgba(255, 0, 0, 0.5) 50%);
+    border: 1px solid rgb(105, 105, 105);
+}
+
+#play_game #lines_parent #line_1 img#virus,
+#play_game #lines_parent #line_2 img#virus,
+#play_game #lines_parent #line_3 img#virus,
+#play_game #lines_parent #line_4 img#virus {
+    width: 95px;
+    position: absolute;
+}
+
+#play_game #lines_parent .danger_zone #batas {
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+#play_game #lines_parent #action_button {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+}
+
+#play_game #lines_parent #action_button #line_d #fire,
+#play_game #lines_parent #action_button #line_f #fire,
+#play_game #lines_parent #action_button #line_j #fire,
+#play_game #lines_parent #action_button #line_k #fire {
+    position: absolute;
+    z-index: -1;
+    width: 2px;
+    height: 50px;
+    background-color: yellow;
+}
+
+#play_game #lines_parent #action_button #line_d,
+#play_game #lines_parent #action_button #line_f,
+#play_game #lines_parent #action_button #line_j,
+#play_game #lines_parent #action_button #line_k {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid gray;
+}
+
+#play_game #lines_parent #action_button #line_j,
+#play_game #lines_parent #action_button #line_d {
+    background-color: aqua;
+}
+
+#play_game #lines_parent #action_button #line_k,
+#play_game #lines_parent #action_button #line_f {
+    color: white;
+    background-color: rgb(86, 0, 120);
+}
+
+#play_game #descriptions {
+    align-self: flex-start;
+    padding-top: 20px;
+}
+
+#play_game #descriptions .menu {
+    margin-top: 20px;
+    background-color: rgb(58, 58, 58);
+    height: 30vh;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px 80px;
+}
+
+#play_game #descriptions .menu button {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 30px 0;
+    border: none;
+    color: white;
+    background-color: inherit;
+}
+
+#play_game #right_descriptions {
+    width: 287.77px;
+}

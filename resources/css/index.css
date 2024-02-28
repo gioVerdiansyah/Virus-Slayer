@@ -1,0 +1,9 @@
+@import './init_game.css';
+@import './play_game.css';
+@import './pause_game.css';
+@import './game_over.css';
+body p,
+h1 {
+    margin: 0;
+    padding: 0;
+}

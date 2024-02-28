@@ -1,0 +1,51 @@
+body,
+#init_game {
+    background-color: black;
+    height: 100vh;
+}
+
+#init_game,
+#init_game #input_name_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#init_game .card {
+    height: max-content;
+    padding: 10px 20px;
+    background-color: rgb(72, 72, 72);
+    border-radius: 3px;
+}
+
+#init_game .card h1 {
+    font-size: large;
+}
+
+#init_game .card ol {
+    padding-inline-start: 20px;
+}
+
+#init_game #input_name_container {
+    flex-direction: column;
+}
+
+#init_game #input_name_container button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#init_game #input_name_container input {
+    padding: 5px;
+}
+
+#init_game #input_name_container button:hover {
+    background-color: rgb(211, 0, 0);
+}

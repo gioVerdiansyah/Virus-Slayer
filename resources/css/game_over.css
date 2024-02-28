@@ -1,0 +1,17 @@
+#pause .card.game_over{
+    padding: 10px 60px 10px 60px;
+}
+
+#pause .card.game_over .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pause .card.game_over .row h3{
+    margin: 0;
+}
+
+#pause .card.game_over .row button#restart_in_continue{
+    margin-top: 10px;
+}
